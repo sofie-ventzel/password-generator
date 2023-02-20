@@ -11,13 +11,18 @@ var lowerCasedCharacters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k
 var upperCasedCharacters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
 // Function to prompt user for password options
+  // say write your password below to see if it meets the requirements
+  // check length > 10 && < 64 if not prompt
+  // check character types all 4 alert with prompt when failed
+  // write each answeared prompt to the page
 function getPasswordOptions() {
-
+prompt
 }
 
 // Function for getting a random element from an array
 function getRandom(arr) {
- 
+  document.getElementById().innerHTML = arr.find()
+Math.floor(Math.random())
 }
 
 // Function to generate password with user input
