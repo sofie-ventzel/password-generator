@@ -15,9 +15,15 @@ var upperCasedCharacters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K
   // check length > 10 && < 64 if not prompt
   // check character types all 4 alert with prompt when failed
   // write each answeared prompt to the page
-function getPasswordOptions() {
-prompt
-}
+document.body.addEventListener('click', function getPasswordOptions() {
+  prompt('Please enter your password idea');
+  if (input < 10 || input > 64) {
+    prompt(input + 'The password needs to be within 10-64 characters')
+  } else {
+    
+  }
+  
+})
 
 // Function for getting a random element from an array
 function getRandom(arr) {
